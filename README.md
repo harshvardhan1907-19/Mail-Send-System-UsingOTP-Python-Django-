@@ -12,8 +12,6 @@ This project is a Django-based web application that allows users to send emails 
 ## 🛠️ Tech Stack
 - Python (Django)
 - HTML
-- CSS
-- JavaScript (for frontend interactions)
 - SMTP (for sending emails)
 
 ## 🔄 How It Works
@@ -25,7 +23,6 @@ This project is a Django-based web application that allows users to send emails 
 ## 📁 Project Structure
 - Django app (views, models, forms)
 - Templates (HTML files)
-- Static files (CSS, JS)
 
 ## ⚠️ Note
 OTP verification is implemented for learning purposes to understand authentication and verification workflows.
