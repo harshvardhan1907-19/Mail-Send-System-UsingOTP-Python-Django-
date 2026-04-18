@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Sending</title>
+</head>
+<body>
+    <div>
+        <h2> {{ mailInfo.to_mail }} </h2>
+
+        <h5>{{ mailInfo.subject }}</h5>
+
+        <p>
+            {% comment %} Great...! </br>You Got Connection with Techmicra Pvt Ltd Successflly! {% endcomment %}
+            {{ mailInfo.message }}
+        </p>
+    </div>
+</body>
+</html>
