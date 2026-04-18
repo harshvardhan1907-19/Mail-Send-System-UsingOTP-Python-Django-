@@ -1,44 +1,43 @@
-# Email Sending System with OTP Verification
+# Email Sending System with OTP Verification (Django)
 
-This project is a web-based email sending system where users can send emails by filling a form and verifying their identity using OTP.
+This project is a Django-based web application that allows users to send emails after verifying their identity using an OTP (One-Time Password).
 
 ## 🚀 Features
-- Send email using "To", "Subject", and "Message"
-- OTP verification before sending email
-- Form validation for user inputs
-- Secure email sending process
-- User-friendly interface
+- Send emails using "To", "Subject", and "Message"
+- OTP verification before email is sent
+- Form validation using Django forms
+- Secure handling of user input
+- Clean and simple UI
 
 ## 🛠️ Tech Stack
+- Python (Django)
 - HTML
 - CSS
-- JavaScript
-- (Add backend here: Node.js / Django / PHP etc.)
-- Email service (SMTP / API)
+- JavaScript (for frontend interactions)
+- SMTP (for sending emails)
 
 ## 🔄 How It Works
-1. User fills email form (To, Subject, Message)
-2. OTP is generated and sent to user
-3. User enters OTP for verification
-4. After successful verification, email is sent
+1. User fills out the email form (To, Subject, Message)
+2. System generates an OTP and sends it to the user’s email
+3. User enters the OTP for verification
+4. After successful verification, the email is sent
 
 ## 📁 Project Structure
-- index.html
-- style.css
-- script.js
-- (backend files if any)
+- Django app (views, models, forms)
+- Templates (HTML files)
+- Static files (CSS, JS)
 
 ## ⚠️ Note
-OTP verification is implemented for learning purposes to understand authentication flow in web applications.
+OTP verification is implemented for learning purposes to understand authentication and verification workflows.
 
-## 🎯 Learning Outcome
-- Understanding of email sending process
-- Working with OTP verification logic
-- Form handling and validation
-- API / SMTP integration
+## 🎯 Learning Outcomes
+- Working with Django forms and views
+- Email sending using SMTP in Django
+- Implementing OTP-based verification logic
+- Handling user input securely
 
 ## 🔗 Live Demo (if available)
 Add your live link here
 
 ## 👨‍💻 Author
-Harshvardhan Sagar
+Harshvardhan Rathod
