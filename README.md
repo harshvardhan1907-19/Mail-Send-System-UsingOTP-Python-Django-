@@ -33,8 +33,5 @@ OTP verification is implemented for learning purposes to understand authenticati
 - Implementing OTP-based verification logic
 - Handling user input securely
 
-## 🔗 Live Demo (if available)
-Add your live link here
-
 ## 👨‍💻 Author
 Harshvardhan Rathod
